@@ -36,6 +36,24 @@ jobs:
           token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
           fail_on_error: true
 
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&card_width=320&hide_border=true"
+          path: profile/top-langs.svg
+          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&card_width=320&hide_border=true&theme=github_dark_dimmed"
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
