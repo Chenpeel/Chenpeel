@@ -11,3 +11,11 @@
 
 ![snake](https://raw.githubusercontent.com/Chenpeel/Chenpeel/snake-output/snake.svg#gh-light-mode-only)
 ![snake dark](https://raw.githubusercontent.com/Chenpeel/Chenpeel/snake-output/snake-dark.svg#gh-dark-mode-only)
+
+
+<img width="100%" src="./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only" />
+<img width="100%" src="./profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only" />
+
+
+<img width="100%" src="./profile/pacman.svg#gh-light-mode-only" />
+<img width="100%" src="./profile/pacman-dark.svg#gh-dark-mode-only" />
